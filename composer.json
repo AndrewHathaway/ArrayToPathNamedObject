@@ -1,0 +1,16 @@
+{
+    "name": "andrewhathaway/arraytopathnamedobject",
+    "type": "library",
+    "description": "Converts an array to a path-named object",
+    "keywords": ["convert", "object", "path", "named", "array"],
+    "homepage": "http://github.com/andrewhathaway/ArrayToPathNamedObject",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Hathaway",
+            "email": "andrew@andrewhathaway.net",
+            "homepage": "http://twitter.com/andrewhathaway",
+            "role": "Developer"
+        }
+    ]
+}
