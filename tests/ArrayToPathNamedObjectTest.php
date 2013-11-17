@@ -14,11 +14,11 @@ class ArrayToPathNamedObjectTest extends PHPUnit_Framework_TestCase {
 	}
 
 	public function testLongPathNames() {
-		$this->assertObjectHasAttribute('location_address_second_another_testing', $this->object);
+		$this->assertObjectHasAttribute('contact_address_state', $this->object);
 	}
 
 	public function testNullValues() {
-		$this->assertNull($this->object->location_address_second_another_testing);
+		$this->assertNull($this->object->contact_email);
 	}
 
 }
