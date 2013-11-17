@@ -9,6 +9,8 @@ When we have `$data['person']['follower']['photo']` we can access it like `$obj-
 
 ###Usage:
 
+- Can be installed via Composer.
+
 ```PHP
 require('ArrayToPathNamedObject.php');
 $obj = new ArrayToPathNamedObject($json);
