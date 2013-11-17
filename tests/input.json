@@ -1,0 +1,24 @@
+{
+	"id": 0,
+	"guid": "a2a0e85b-3c3a-4a21-a951-ad0a4edc751b",
+
+	"isActive": true,
+
+	"balance": 3042.07,
+	"picture": "http://placehold.it/32x32",
+
+	"age": 27,
+	"name": "Gordon Richard",
+	"gender": "male",
+	"company": "Zilidium",
+
+	"contact" : {
+		"email": null,
+		"phone": "+1 (939) 444-2238",
+		"address": {
+			"houseNo": 937,
+			"street": "Sands Street",
+			"state": "Mississippi"
+		}
+	}
+}
