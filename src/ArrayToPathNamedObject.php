@@ -24,10 +24,18 @@ class ArrayToPathNamedObject {
 
 		foreach ($input as $key => $value) {
 
+			$key = $buffer . $key;
+
 			if (! is_array($value)) {
-				$this->{$buffer . $key} = $value;
+
+				if (property_exists($this, $key)) {
+					throw new Exception('Conflict - Object already has property "' . $key . '"');
+				} else {
+					$this->{$key} = $value;
+				}
+
 			} else {
-				$this->convert($value, $buffer . $key);
+				$this->convert($value, $key);
 			}
 
 		}

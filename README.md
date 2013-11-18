@@ -13,7 +13,13 @@ When we have `$data['person']['follower']['photo']` we can access it like `$obj-
 
 ```PHP
 require('ArrayToPathNamedObject.php');
-$obj = new ArrayToPathNamedObject($json);
+
+try {
+	$obj = new ArrayToPathNamedObject($json);
+} catch(Exception $e) {
+	die($e);
+}
+
 ````
 
 [@andrewhathaway](http://twitter.com/andrewhathaway)
