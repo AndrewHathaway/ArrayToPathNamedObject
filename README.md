@@ -1,7 +1,7 @@
 ArrayToPathNamedObject
 ======================
 
-Converts arrays to objects, but concatenates paths with "_" instead of having object->object. Terrible project to name. Written originally for a friend who didn't want `$obj->person->follower->photo`.
+Converts arrays to objects, but concatenates paths with "_" instead of having object->object. Terrible project to name. Written originally for a friend who didn't want `$obj->person->follower->photo`. An exception will be thrown if conflicting keys are the conflicting.
 
 ###For example:
 
